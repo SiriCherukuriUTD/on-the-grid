@@ -15,6 +15,16 @@
         body {
             font-family: 'Gentium Book Basic', serif;
         }
+        .date {
+            color: #9F7E69;
+        }
+        header span {
+            color: #891A1E;
+            font-weight: bold;
+        }
+        footer span {
+            color: #9F7E69;
+        }
         h1 {
             font-family: 'Chomsky', cursive;
         }
@@ -22,6 +32,7 @@
             width: 100%;
         }
     </style>
+
 </head>
 <body>
 	<div class="container text-center">
@@ -29,45 +40,51 @@
         <div id="title" class="mt-5 mb-1 border-bottom border-dark">
             <h1>The New York Mimes</h1>
         </div>
-        <div class="position-absolute top-0 end-0 mt-2 me-2 small">March 2026</div>
+        <div class="position-absolute top-0 start-0 mt-2 ms-2 date">March 2026</div>
         </div>
-        <div class="border-bottom border-dark py-2">
-        <div class="d-flex justify-content-between gap-4">
-            <span>Proin</span>
-            <span>Etiam</span>
-            <span>Aliquam</span>
-            <span>Cras</span>
-            <span>Maximus</span>
-            <span>Fusce</span>
-            <span>Donec</span>
-            <span>Nulla</span>
-            <span>Integer</span>
-            <span>Curabitur</span>
-        </div>
-        </div>
+
+        <header>
+            <div class="border-bottom border-dark py-2">
+            <div class="d-flex justify-content-between gap-4">
+                <span>Proin</span>
+                <span>Etiam</span>
+                <span>Aliquam</span>
+                <span>Cras</span>
+                <span>Maximus</span>
+                <span>Fusce</span>
+                <span>Donec</span>
+                <span>Nulla</span>
+                <span>Integer</span>
+                <span>Curabitur</span>
+            </div>
+            </div>
+        </header>
 
         <div class="row border-bottom border-dark">
             <div class="col-12 col-md-6 col-lg-2 order-2 order-md-1 py-3">
                 <h4 class="text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                <p class="text-start">At in tellus integer feugiat scelerisque.</p>
+                <p class="text-start">At in tellus integer feugiat scelerisque. Tempus imperdiet nulla malesuada pellentesque elit. Dui ut ornare lectus sit amet est placerat. Felis imperdiet proin orci.</p>
             </div>
             <div class="col-12 col-md-6 col-lg-5 order-1 order-md-2 py-3">
-                <img src="assets/img/mimes-3.png" class="img-responsive" width="100%">
+                <img src="assets/img/mimes-3.png">
             </div>
-            
-            <div class="col-12 col-lg-3 order-3 py-3">
-            <div class="d-flex gap-2 mb-2">
-                <img src="assets/img/mimes-4.png" style="width:85%; height:auto;">
-                <img src="assets/img/mimes-5.png" style="width:85%; height:auto;">
+            <div class="col-12 col-lg-5 order-3 py-3">
+            <div class="row g-2 mb-2">
+            <div class="col-6">
+                <img src="assets/img/mimes-4.png">
             </div>
-            <h4 class="text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-            <p class="text-start">At in tellus integer feugiat scelerisque. Tempus imperdiet nulla malesuada pellentesque elit.</p>
+            <div class="col-6">
+                <img src="assets/img/mimes-5.png">
+            </div>
+            </div>
+                <h4 class="text-start">Ac turpis egestas integer eget aliquet.</h4>
+                <p class="text-start">Etiam tempor ante nunc, in malesuada nunc ullamcorper malesuada.</p>
             </div>
         </div>
         
         <div class="row border-bottom border-dark"> 
             <div class="col-12 py-3">
-            <div class="row g-2">
+            <div class="row g-4">
             <div class="col-6">
                 <img src="assets/img/mimes-6.png">
             </div>
@@ -77,33 +94,33 @@
             </div>
         </div>
         <div class="col-12 col-lg-6 py-3">
-            <h4 class="text-start">Lorem ipsum dolor sit amet...</h4>
-            <p class="text-start">neque gravida in fermentum...</p>
+            <h4 class="text-start">In laoreet blandit odio, sit amet rutrum turpis.</h4>
+            <p class="text-start">Suspendisse nisl leo, varius eget auctor id, maximus nec ante. Risus odio rhoncus nec odio vel, lobortis posuere sapien.</p>
         </div>
         <div class="col-12 col-lg-6 py-3">
-            <h4 class="text-start">Lorem ipsum dolor sit amet...</h4>
-            <p class="text-start">Ut enim ad minim veniam...</p>
+            <h4 class="text-start">Morbi nec nunc ut lectus venenatis tempor nec purus.</h4>
+            <p class="text-start">Quisque condimentum erat mi, nec ullamcorper leo porttitor at. Nunc nec nisi quis dui molestie volutpat.</p>
         </div>
         </div>
 
         <div class="row">
             <div class="col-12 col-md-6 col-lg-3 order-2 order-md-1 py-3">
-                <h4 class="text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                <p class="text-start">Risus sed vulputate odio ut enim blandit volutpat maecenas volutpat. Velit euismod in pellentesque massa. Varius morbi enim nunc faucibus a pellentesque sit.</p>
+                <h4 class="text-start">Eu tincidunt tortor aliquam nulla facilisi cras odio. Morbi nec nunc ut lectus venenatis tempor.</h4>
+                <p class="text-start">Risus sed vulputate odio ut enim blandit volutpat maecenas volutpat. Velit euismod in pellentesque massa. Varius morbi enim nunc faucibus.</p>
             </div>
             <div class="col-12 col-md-6 col-lg-6 order-1 order-md-2 py-3">
                 <img src="assets/img/mimes-2.png" class="img-responsive" width="100%">
             </div>
             <div class="col-12 col-lg-3 order-3 py-3">
-                <h4 class="text-start">Ac turpis egestas integer eget aliquet. Eu tincidunt tortor aliquam nulla facilisi cras fermentum odio.</h4>
-                <p class="text-start">Augue neque gravida in fermentum. At in tellus integer feugiat scelerisque. Tempus imperdiet nulla malesuada pellentesque elit. Dui ut ornare lectus sit amet est placerat. Felis imperdiet proin fermentum leo vel orci.</p>
+                <h4 class="text-start">Proin in tortor id augue rhoncus fermentum vitae. Fusce bibendum dui nunc aliquam lacinia.</h4>
+                <p class="text-start">Augue neque gravida in fermentum. At in tellus integer feugiat scelerisque. Tempus imperdiet nulla malesuada pellentesque elit.</p>
             </div>
         </div>
     </div>
 	
     <footer class="container">
-        <div class="row my-5">
-            <div class="d-flex justify-content-between py-3 small">
+        <div class="row my-2">
+            <div class="d-flex justify-content-between py-3">
                 <span>Proin</span>
                 <span>Etiam</span>
                 <span>Aliquam</span>
@@ -123,5 +140,6 @@
 
 	<script src="./assets/js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
 </body>
 </html>
